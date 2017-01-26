@@ -1,0 +1,1139 @@
+[2017-01-22 11:39:02 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 11:39:02 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 11:39:02 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 11:39:06 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 11:39:06 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 11:39:06 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 11:39:14 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 11:39:14 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 11:39:14 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 11:39:14 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 11:39:14 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 11:39:14 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 11:39:14 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 11:39:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 11:39:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 11:39:15 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 11:39:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 11:39:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 11:39:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 11:39:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 11:39:17 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 11:39:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 11:39:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 11:39:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 11:39:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 11:39:17 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 11:39:18 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 11:39:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 11:39:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 11:39:18 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 11:39:18 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 11:39:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 11:39:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文这是一封测试邮件正文
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-单击writeEmailPage.addAttachmentLink页面元素成功
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：d:\test.log
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文d:\test.log
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Enter
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 11:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：4000
+[2017-01-22 11:39:25 INFO ] [main] {org.keyword.util.Log:17}-休眠4秒成功
+[2017-01-22 11:39:25 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click_sendMailButton
+[2017-01-22 11:39:25 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 11:39:25 INFO ] [main] {org.keyword.util.Log:17}-单击发送邮件按钮成功
+[2017-01-22 11:39:25 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 11:39:25 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 11:39:28 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 11:39:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 11:39:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 11:39:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：Assert_String
+[2017-01-22 11:39:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：发送成功
+[2017-01-22 11:39:29 INFO ] [main] {org.keyword.util.Log:17}-成功断言关键字“发送成功“
+[2017-01-22 11:39:29 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：close_browser
+[2017-01-22 11:39:29 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 11:39:29 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器窗口
+[2017-01-22 12:30:51 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 12:30:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 12:30:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 12:30:55 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 12:30:55 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 12:31:23 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 12:31:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 12:31:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 12:31:27 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 12:31:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 12:31:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 12:31:34 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 12:31:34 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 12:31:34 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 12:31:34 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 12:31:34 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 12:31:34 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 12:31:34 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 12:31:34 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 12:31:34 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:31:34 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 12:31:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:31:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:31:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 12:31:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:31:37 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 12:31:37 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:31:37 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:31:37 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 12:31:37 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 12:31:37 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 12:31:37 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 12:31:38 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 12:31:38 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 12:31:38 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 12:31:38 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 12:31:38 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 12:31:38 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文这是一封测试邮件正文
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-单击writeEmailPage.addAttachmentLink页面元素成功
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：d:\test.log
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文d:\test.log
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Enter
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 12:31:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：4000
+[2017-01-22 12:31:45 INFO ] [main] {org.keyword.util.Log:17}-休眠4秒成功
+[2017-01-22 12:31:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click_sendMailButton
+[2017-01-22 12:31:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:31:45 INFO ] [main] {org.keyword.util.Log:17}-单击发送邮件按钮成功
+[2017-01-22 12:31:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 12:31:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 12:31:48 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 12:31:48 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:31:48 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:31:48 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：Assert_String
+[2017-01-22 12:31:48 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：发送成功
+[2017-01-22 12:31:48 INFO ] [main] {org.keyword.util.Log:17}-成功断言关键字“发送成功“
+[2017-01-22 12:31:48 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：close_browser
+[2017-01-22 12:31:48 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:31:48 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器窗口
+[2017-01-22 12:39:10 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 12:39:10 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 12:39:10 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 12:39:13 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 12:39:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 12:39:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 12:39:20 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 12:39:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 12:39:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 12:39:20 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 12:39:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 12:39:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 12:39:20 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 12:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 12:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:39:21 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 12:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 12:39:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:39:23 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 12:39:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:39:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:39:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 12:39:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 12:39:24 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 12:39:24 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 12:39:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 12:39:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 12:39:24 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 12:39:24 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 12:39:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 12:39:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:39:27 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 12:39:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 12:39:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 12:39:28 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文这是一封测试邮件正文
+[2017-01-22 12:39:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 12:39:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:39:28 INFO ] [main] {org.keyword.util.Log:17}-单击writeEmailPage.addAttachmentLink页面元素成功
+[2017-01-22 12:39:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 12:39:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：d:\test.log
+[2017-01-22 12:39:28 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文d:\test.log
+[2017-01-22 12:39:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Enter
+[2017-01-22 12:39:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:39:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 12:39:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：4000
+[2017-01-22 12:39:32 INFO ] [main] {org.keyword.util.Log:17}-休眠4秒成功
+[2017-01-22 12:39:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click_sendMailButton
+[2017-01-22 12:39:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:39:32 INFO ] [main] {org.keyword.util.Log:17}-单击发送邮件按钮成功
+[2017-01-22 12:39:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 12:39:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 12:39:35 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 12:39:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:39:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:39:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：Assert_String
+[2017-01-22 12:39:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：发送成功
+[2017-01-22 12:39:35 INFO ] [main] {org.keyword.util.Log:17}-成功断言关键字“发送成功“
+[2017-01-22 12:39:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：close_browser
+[2017-01-22 12:39:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:39:35 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器窗口
+[2017-01-22 12:42:02 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 12:42:02 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 12:42:02 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 12:42:05 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 12:42:06 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 12:42:06 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 12:42:13 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 12:42:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 12:42:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 12:42:13 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 12:42:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 12:42:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 12:42:13 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 12:42:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 12:42:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:42:13 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 12:42:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:42:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:42:14 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 12:42:14 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:42:16 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 12:42:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:42:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:42:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 12:42:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 12:42:16 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 12:42:17 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 12:42:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 12:42:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 12:42:17 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 12:42:17 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 12:42:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 12:42:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:42:20 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 12:42:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 12:42:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 12:42:20 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文这是一封测试邮件正文
+[2017-01-22 12:42:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click_sendMailButton
+[2017-01-22 12:42:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:42:20 INFO ] [main] {org.keyword.util.Log:17}-单击发送邮件按钮成功
+[2017-01-22 12:42:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 12:42:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 12:42:23 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 12:42:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:42:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:42:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：Assert_String
+[2017-01-22 12:42:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：发送成功
+[2017-01-22 12:42:23 INFO ] [main] {org.keyword.util.Log:17}-成功断言关键字“发送成功“
+[2017-01-22 12:42:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：close_browser
+[2017-01-22 12:42:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:42:23 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器窗口
+[2017-01-22 12:46:11 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 12:46:11 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 12:46:11 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 12:46:14 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 12:46:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 12:46:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 12:46:21 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 12:46:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 12:46:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 12:46:22 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 12:46:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 12:46:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 12:46:22 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 12:46:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 12:46:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:46:22 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 12:46:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:46:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:46:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 12:46:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:46:24 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 12:46:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:46:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:46:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 12:46:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 12:46:25 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 12:46:25 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 12:46:25 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 12:46:25 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 12:46:25 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 12:46:25 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 12:46:25 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 12:46:25 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 12:46:28 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 12:46:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 12:46:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:46:31 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 12:46:31 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 12:46:31 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 12:46:31 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文这是一封测试邮件正文
+[2017-01-22 12:46:31 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click_sendMailButton
+[2017-01-22 12:46:31 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:46:31 INFO ] [main] {org.keyword.util.Log:17}-单击发送邮件按钮成功
+[2017-01-22 12:46:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 12:46:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 12:46:35 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 12:46:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:46:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:46:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：Assert_String
+[2017-01-22 12:46:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：发送成功
+[2017-01-22 12:46:35 INFO ] [main] {org.keyword.util.Log:17}-成功断言关键字“发送成功“
+[2017-01-22 12:46:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：close_browser
+[2017-01-22 12:46:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:46:35 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器窗口
+[2017-01-22 12:51:39 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 12:51:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 12:51:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 12:51:43 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 12:51:43 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 12:52:00 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 12:52:00 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 12:52:00 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 12:52:04 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 12:52:04 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 12:52:04 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 12:52:12 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 12:52:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 12:52:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 12:52:12 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 12:52:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 12:52:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 12:52:12 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 12:52:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 12:52:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:52:13 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 12:52:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:52:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:52:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 12:52:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:52:15 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 12:52:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:52:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:52:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 12:52:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 12:52:15 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 12:52:15 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 12:52:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 12:52:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 12:52:16 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 12:52:16 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 12:52:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 12:52:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:52:19 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 12:52:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 12:52:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 12:52:19 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文这是一封测试邮件正文
+[2017-01-22 12:52:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click_sendMailButton
+[2017-01-22 12:52:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:52:19 INFO ] [main] {org.keyword.util.Log:17}-单击发送邮件按钮成功
+[2017-01-22 12:52:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 12:52:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 12:52:22 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 12:52:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 12:52:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:52:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：Assert_String
+[2017-01-22 12:52:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：发送成功
+[2017-01-22 12:52:22 INFO ] [main] {org.keyword.util.Log:17}-成功断言关键字“发送成功“
+[2017-01-22 12:52:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：close_browser
+[2017-01-22 12:52:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 12:52:22 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器窗口
+[2017-01-22 15:11:28 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 15:11:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 15:11:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 15:11:32 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 15:11:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 15:11:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 15:11:39 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 15:11:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 15:11:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 15:11:40 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 15:11:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 15:11:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 15:11:40 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 15:11:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 15:11:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:11:40 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 15:11:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 15:11:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:11:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 15:11:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:11:42 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 15:11:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 15:11:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:11:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 15:11:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 15:11:43 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 15:11:43 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 15:11:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 15:11:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 15:11:43 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 15:11:43 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 15:11:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 15:11:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:11:46 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 15:11:47 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 15:11:47 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 15:11:47 INFO ] [main] {org.keyword.util.Log:17}-在输入框粘贴邮件正文是出现异常，具体异常信息：TypeError: document.getElementByTagName is not a function
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=9936, browserVersion=50.1.0, platformVersion=6.1, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 885bccb9-147b-4c72-a230-f6665ea376c6
+[2017-01-22 15:11:47 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器窗口
+[2017-01-22 15:11:48 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 15:19:15 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 15:19:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 15:19:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 15:19:19 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 15:19:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 15:19:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 15:19:26 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 15:19:26 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 15:19:26 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 15:19:26 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 15:19:26 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 15:19:26 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 15:19:27 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 15:19:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 15:19:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:19:27 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 15:19:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 15:19:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:19:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 15:19:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:19:29 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 15:19:29 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 15:19:29 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:19:29 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 15:19:29 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 15:19:29 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 15:19:29 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 15:19:29 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 15:19:29 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 15:19:30 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 15:19:30 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 15:19:30 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 15:19:30 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:19:33 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 15:19:33 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 15:19:33 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 15:19:33 INFO ] [main] {org.keyword.util.Log:17}-在输入框粘贴邮件正文是出现异常，具体异常信息：SyntaxError: unterminated string literal
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=8128, browserVersion=50.1.0, platformVersion=6.1, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 3052348c-b62a-4923-9ff1-36be7178441f
+[2017-01-22 15:19:33 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器窗口
+[2017-01-22 15:19:35 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 15:25:28 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 15:25:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 15:25:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 15:25:32 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 15:25:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 15:25:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 15:25:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:25:41 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 15:25:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 15:25:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:25:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 15:25:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 15:25:42 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 15:25:42 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 15:25:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 15:25:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 15:25:42 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 15:25:42 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 15:25:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 15:25:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:25:45 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 15:25:46 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 15:25:46 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 15:25:46 INFO ] [main] {org.keyword.util.Log:17}-在输入框粘贴邮件正文是出现异常，具体异常信息：SyntaxError: missing ; before statement
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161208153507, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=9432, browserVersion=50.1.0, platformVersion=6.1, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: 63742abf-1dea-4138-b989-59a0063f68e2
+[2017-01-22 15:25:46 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器窗口
+[2017-01-22 15:25:47 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 15:26:51 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 15:26:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 15:26:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 15:26:55 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 15:26:55 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 15:26:55 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 15:27:02 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 15:27:02 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 15:27:02 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 15:27:02 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 15:27:02 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 15:27:02 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 15:27:03 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 15:27:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 15:27:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:27:03 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 15:27:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 15:27:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:27:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 15:27:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:27:05 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 15:27:05 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 15:27:05 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:27:05 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 15:27:05 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 15:27:05 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 15:27:06 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 15:27:06 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 15:27:06 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 15:27:06 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 15:27:06 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 15:27:06 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 15:27:06 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:27:09 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 15:27:09 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 15:27:09 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 15:27:12 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文这是一封测试邮件正文
+[2017-01-22 15:27:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click_sendMailButton
+[2017-01-22 15:27:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:27:12 INFO ] [main] {org.keyword.util.Log:17}-单击发送邮件按钮成功
+[2017-01-22 15:27:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 15:27:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 15:27:15 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 15:27:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 15:27:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:27:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：Assert_String
+[2017-01-22 15:27:15 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：发送成功
+[2017-01-22 15:27:15 INFO ] [main] {org.keyword.util.Log:17}-成功断言关键字“发送成功“
+[2017-01-22 15:27:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：close_browser
+[2017-01-22 15:27:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:27:16 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器窗口
+[2017-01-22 15:32:39 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 15:32:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 15:32:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 15:32:43 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 15:32:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 15:32:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 15:32:50 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 15:32:50 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 15:32:50 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 15:32:50 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 15:32:50 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 15:32:50 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 15:32:50 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 15:32:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 15:32:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:32:51 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 15:32:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 15:32:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:32:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 15:32:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:32:53 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 15:32:53 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 15:32:53 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:32:53 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 15:32:53 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 15:32:53 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 15:32:53 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 15:32:53 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 15:32:53 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 15:32:54 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 15:32:54 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 15:32:54 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 15:32:54 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:32:57 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 15:32:57 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 15:32:57 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 15:33:00 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文：这是一封测试邮件正文
+[2017-01-22 15:33:00 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click_sendMailButton
+[2017-01-22 15:33:00 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:33:00 INFO ] [main] {org.keyword.util.Log:17}-单击发送邮件按钮成功
+[2017-01-22 15:33:00 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 15:33:00 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 15:33:03 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 15:33:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 15:33:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:33:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：Assert_String
+[2017-01-22 15:33:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：发送成功
+[2017-01-22 15:33:03 INFO ] [main] {org.keyword.util.Log:17}-成功断言关键字“发送成功“
+[2017-01-22 15:33:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：close_browser
+[2017-01-22 15:33:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 15:33:03 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器窗口
+[2017-01-22 16:16:25 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 16:16:25 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 16:16:25 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 16:16:29 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 16:16:29 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 16:16:29 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 16:16:40 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 16:16:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:16:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 16:16:40 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 16:16:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:16:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 16:16:40 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 16:16:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 16:16:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:16:41 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 16:16:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:16:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:16:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 16:16:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:16:43 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 16:16:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:16:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:16:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 16:16:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 16:16:43 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 16:16:43 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 16:16:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 16:16:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 16:16:43 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 16:16:43 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 16:16:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 16:16:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:16:46 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 16:16:47 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 16:16:47 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 16:16:50 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文：这是一封测试邮件正文
+[2017-01-22 16:16:50 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click_sendMailButton
+[2017-01-22 16:16:50 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:16:50 INFO ] [main] {org.keyword.util.Log:17}-单击发送邮件按钮成功
+[2017-01-22 16:16:50 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 16:16:50 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 16:16:53 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 16:16:53 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:16:53 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:16:53 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：Assert_String
+[2017-01-22 16:16:53 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：发送成功
+[2017-01-22 16:16:53 INFO ] [main] {org.keyword.util.Log:17}-成功断言关键字“发送成功“
+[2017-01-22 16:16:53 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：close_browser
+[2017-01-22 16:16:53 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:16:53 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器窗口
+[2017-01-22 16:24:59 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 16:24:59 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 16:24:59 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 16:25:02 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 16:25:03 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 16:26:20 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 16:26:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 16:26:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 16:26:24 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 16:26:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 16:26:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 16:26:32 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 16:26:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:26:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 16:26:32 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 16:26:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:26:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 16:26:32 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 16:26:33 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 16:26:33 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:26:33 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 16:26:33 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:26:33 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:26:33 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 16:26:33 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:26:35 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 16:26:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:26:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:26:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 16:26:35 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 16:26:35 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 16:26:35 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 16:26:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 16:26:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 16:26:36 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 16:26:36 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 16:26:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 16:26:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:26:39 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 16:26:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 16:26:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 16:26:42 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文：这是一封测试邮件正文
+[2017-01-22 16:26:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click_sendMailButton
+[2017-01-22 16:26:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:26:42 INFO ] [main] {org.keyword.util.Log:17}-单击发送邮件按钮成功
+[2017-01-22 16:26:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 16:26:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 16:26:45 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 16:26:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:26:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:26:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：Assert_String
+[2017-01-22 16:26:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：发送成功
+[2017-01-22 16:26:45 INFO ] [main] {org.keyword.util.Log:17}-成功断言关键字“发送成功“
+[2017-01-22 16:26:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：close_browser
+[2017-01-22 16:26:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 16:26:46 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经关闭
+[2017-01-22 16:34:27 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 16:34:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 16:34:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：chrome
+[2017-01-22 16:34:29 INFO ] [main] {org.keyword.util.Log:17}-Chrome浏览器已经声明
+[2017-01-22 16:34:30 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 16:34:30 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 16:34:36 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:34:38 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 16:34:38 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:34:38 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:34:38 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 16:34:38 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 16:34:39 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 16:34:39 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 16:34:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 16:34:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 16:34:39 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 16:34:40 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 16:34:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 16:34:40 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:34:43 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 16:34:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 16:34:43 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 16:34:46 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文：这是一封测试邮件正文
+[2017-01-22 16:34:46 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click_sendMailButton
+[2017-01-22 16:34:46 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:34:46 INFO ] [main] {org.keyword.util.Log:17}-单击发送邮件按钮成功
+[2017-01-22 16:34:46 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 16:34:46 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 16:34:49 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 16:34:49 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:34:49 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:34:49 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：Assert_String
+[2017-01-22 16:34:49 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：发送成功
+[2017-01-22 16:34:49 INFO ] [main] {org.keyword.util.Log:17}-成功断言关键字“发送成功“
+[2017-01-22 16:34:49 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：close_browser
+[2017-01-22 16:34:49 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：chrome
+[2017-01-22 16:34:49 INFO ] [main] {org.keyword.util.Log:17}-Chrome浏览器已经关闭
+[2017-01-22 16:39:04 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 16:39:04 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 16:39:04 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：ie
+[2017-01-22 16:39:07 INFO ] [main] {org.keyword.util.Log:17}-ie浏览器已经声明
+[2017-01-22 16:39:07 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 16:39:07 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 16:39:13 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 16:39:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:39:13 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 16:40:09 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 16:40:09 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:40:09 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 16:40:50 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 16:40:50 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 16:40:50 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:40:50 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 16:40:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:40:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:40:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 16:40:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:41:01 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素失败，具体异常信息：Unable to find element with xpath == //*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=8, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=-private, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:43159/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 7442e9e7-1dae-418c-bdff-d76231270fb8
+*** Element info: {Using=xpath, value=//*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')]}
+[2017-01-22 16:41:01 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器出现异常，具体异常信息Problem while managing the registry, OS Version '6.1', regVersion1 = null
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+[2017-01-22 16:41:01 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 16:42:55 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 16:42:55 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 16:42:55 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：ie
+[2017-01-22 16:42:59 INFO ] [main] {org.keyword.util.Log:17}-ie浏览器已经声明
+[2017-01-22 16:42:59 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 16:42:59 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 16:43:05 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 16:43:05 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:43:05 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 16:43:05 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 16:43:05 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:43:05 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 16:43:06 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 16:43:06 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 16:43:06 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:43:08 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 16:43:08 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:43:08 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:43:08 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 16:43:08 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:43:18 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素失败，具体异常信息：Unable to find element with xpath == //*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=8, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=-private, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:42534/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 26078d04-8683-4a55-acc6-e483bbd15d28
+*** Element info: {Using=xpath, value=//*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')]}
+[2017-01-22 16:43:18 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器出现异常，具体异常信息Problem while managing the registry, OS Version '6.1', regVersion1 = null
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+[2017-01-22 16:43:19 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 16:44:08 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 16:44:08 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 16:44:08 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：ie
+[2017-01-22 16:44:11 INFO ] [main] {org.keyword.util.Log:17}-ie浏览器已经声明
+[2017-01-22 16:44:11 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 16:44:11 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 16:44:17 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 16:44:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:44:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 16:44:18 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 16:44:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:44:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 16:44:19 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 16:44:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 16:44:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:44:19 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 16:44:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:44:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:44:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 16:44:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:44:44 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 16:44:44 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:44:44 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:44:44 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 16:44:44 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 16:44:44 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 16:44:45 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 16:44:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 16:44:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 16:44:45 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 16:44:45 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 16:44:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 16:44:45 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:44:48 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 16:44:48 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 16:44:48 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 16:44:52 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文：这是一封测试邮件正文
+[2017-01-22 16:44:52 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click_sendMailButton
+[2017-01-22 16:44:52 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:44:52 INFO ] [main] {org.keyword.util.Log:17}-单击发送邮件按钮成功
+[2017-01-22 16:44:52 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 16:44:52 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 16:44:55 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 16:44:55 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:44:55 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:44:55 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：Assert_String
+[2017-01-22 16:44:55 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：发送成功
+[2017-01-22 16:46:48 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 16:46:48 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 16:46:48 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：ie
+[2017-01-22 16:46:51 INFO ] [main] {org.keyword.util.Log:17}-ie浏览器已经声明
+[2017-01-22 16:46:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 16:46:51 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 16:46:57 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 16:46:57 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:46:57 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 16:46:57 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 16:46:58 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:46:58 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 16:46:58 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 16:46:59 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 16:46:59 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:46:59 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 16:46:59 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:46:59 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:46:59 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 16:46:59 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:47:09 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素失败，具体异常信息：Unable to find element with xpath == //*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=8, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=-private, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:18129/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 3c43cbd1-574a-49bf-ac41-aa65b505cec3
+*** Element info: {Using=xpath, value=//*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')]}
+[2017-01-22 16:47:10 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器出现异常，具体异常信息Problem while managing the registry, OS Version '6.1', regVersion1 = null
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+[2017-01-22 16:47:10 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 16:49:06 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 16:49:06 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 16:49:06 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：ie
+[2017-01-22 16:49:10 INFO ] [main] {org.keyword.util.Log:17}-ie浏览器已经声明
+[2017-01-22 16:49:10 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 16:49:10 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 16:49:16 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 16:49:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:49:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 16:49:16 INFO ] [main] {org.keyword.util.Log:17}-清除login.username输入框中所有内容
+[2017-01-22 16:49:17 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 16:49:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:49:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 16:49:17 INFO ] [main] {org.keyword.util.Log:17}-清除login.password输入框中所有内容
+[2017-01-22 16:49:17 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 16:49:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 16:49:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:49:18 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 16:49:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:49:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:49:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 16:49:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:49:28 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素失败，具体异常信息：Unable to find element with xpath == //*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=8, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=-private, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:4365/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 2ea376f2-7b66-4d21-b6e6-ac98dc1dea82
+*** Element info: {Using=xpath, value=//*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')]}
+[2017-01-22 16:49:28 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器出现异常，具体异常信息Problem while managing the registry, OS Version '6.1', regVersion1 = null
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+[2017-01-22 16:49:28 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 16:51:56 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 16:51:56 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 16:51:56 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：ie
+[2017-01-22 16:51:59 INFO ] [main] {org.keyword.util.Log:17}-ie浏览器已经声明
+[2017-01-22 16:51:59 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 16:52:19 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 16:52:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 16:52:19 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：ie
+[2017-01-22 16:52:22 INFO ] [main] {org.keyword.util.Log:17}-ie浏览器已经声明
+[2017-01-22 16:52:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 16:52:23 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 16:52:28 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 16:52:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:52:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 16:52:29 INFO ] [main] {org.keyword.util.Log:17}-清除login.username输入框中所有内容
+[2017-01-22 16:52:29 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 16:52:29 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:52:29 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 16:52:29 INFO ] [main] {org.keyword.util.Log:17}-清除login.password输入框中所有内容
+[2017-01-22 16:52:30 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 16:52:30 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 16:52:30 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:52:33 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 16:52:34 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:52:34 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:52:34 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 16:52:34 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:52:44 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素失败，具体异常信息：Unable to find element with xpath == //*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.18 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=8, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=-private, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:10735/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 735b3f57-3da0-4338-8310-0f64a4b421df
+*** Element info: {Using=xpath, value=//*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')]}
+[2017-01-22 16:52:44 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器出现异常，具体异常信息Problem while managing the registry, OS Version '6.1', regVersion1 = null
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+[2017-01-22 16:52:44 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 16:54:28 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 16:54:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 16:54:28 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：ie
+[2017-01-22 16:54:31 INFO ] [main] {org.keyword.util.Log:17}-ie浏览器已经声明
+[2017-01-22 16:54:31 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 16:54:31 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 16:54:37 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 16:54:37 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:54:37 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 16:54:38 INFO ] [main] {org.keyword.util.Log:17}-清除login.username输入框中所有内容
+[2017-01-22 16:54:38 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 16:54:38 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:54:38 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 16:54:38 INFO ] [main] {org.keyword.util.Log:17}-清除login.password输入框中所有内容
+[2017-01-22 16:54:39 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 16:54:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 16:54:39 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:54:42 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 16:54:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:54:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:54:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 16:54:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:54:53 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素失败，具体异常信息：Unable to find element with xpath == //*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=true, ie.fileUploadDialogTimeout=3000, version=8, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=-private, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:18050/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: e274713d-f0aa-4ecd-a417-a899fdb07515
+*** Element info: {Using=xpath, value=//*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')]}
+[2017-01-22 16:54:53 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器出现异常，具体异常信息Problem while managing the registry, OS Version '6.1', regVersion1 = null
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+[2017-01-22 16:54:53 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 16:58:59 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 16:58:59 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 16:58:59 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 16:59:03 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经声明
+[2017-01-22 16:59:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 16:59:03 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 16:59:12 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 16:59:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:59:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 16:59:12 INFO ] [main] {org.keyword.util.Log:17}-清除login.username输入框中所有内容
+[2017-01-22 16:59:12 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 16:59:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 16:59:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 16:59:12 INFO ] [main] {org.keyword.util.Log:17}-清除login.password输入框中所有内容
+[2017-01-22 16:59:12 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 16:59:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 16:59:12 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:59:15 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 16:59:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:59:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:59:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 16:59:16 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:59:17 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 16:59:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:59:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:59:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 16:59:17 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 16:59:17 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.recipients输入框中所有内容
+[2017-01-22 16:59:18 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest@126.com
+[2017-01-22 16:59:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 16:59:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是测试邮件标题
+[2017-01-22 16:59:18 INFO ] [main] {org.keyword.util.Log:17}-清除writeEmailPage.mailSubject输入框中所有内容
+[2017-01-22 16:59:18 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入这是测试邮件标题
+[2017-01-22 16:59:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：press_Tab
+[2017-01-22 16:59:18 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:59:21 INFO ] [main] {org.keyword.util.Log:17}-按Tab键成功
+[2017-01-22 16:59:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：pasteString
+[2017-01-22 16:59:21 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：这是一封测试邮件正文
+[2017-01-22 16:59:24 INFO ] [main] {org.keyword.util.Log:17}-成功粘贴邮件正文：这是一封测试邮件正文
+[2017-01-22 16:59:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click_sendMailButton
+[2017-01-22 16:59:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:59:24 INFO ] [main] {org.keyword.util.Log:17}-单击发送邮件按钮成功
+[2017-01-22 16:59:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：sleep
+[2017-01-22 16:59:24 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：3000
+[2017-01-22 16:59:27 INFO ] [main] {org.keyword.util.Log:17}-休眠3秒成功
+[2017-01-22 16:59:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 16:59:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 16:59:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：Assert_String
+[2017-01-22 16:59:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：发送成功
+[2017-01-22 16:59:27 INFO ] [main] {org.keyword.util.Log:17}-成功断言关键字“发送成功“
+[2017-01-22 16:59:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：close_browser
+[2017-01-22 16:59:27 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：firefox
+[2017-01-22 16:59:28 INFO ] [main] {org.keyword.util.Log:17}-火狐浏览器已经关闭
+[2017-01-22 17:03:20 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 17:03:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 17:03:20 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：ie
+[2017-01-22 17:04:22 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 17:04:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 17:04:22 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：ie
+[2017-01-22 17:04:25 INFO ] [main] {org.keyword.util.Log:17}-ie浏览器已经声明
+[2017-01-22 17:04:26 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 17:04:26 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 17:04:32 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 17:04:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 17:04:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 17:04:32 INFO ] [main] {org.keyword.util.Log:17}-清除login.username输入框中所有内容
+[2017-01-22 17:04:32 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 17:04:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 17:04:32 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 17:04:33 INFO ] [main] {org.keyword.util.Log:17}-清除login.password输入框中所有内容
+[2017-01-22 17:04:33 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 17:04:33 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 17:04:33 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 17:04:37 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 17:04:37 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 17:04:37 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 17:04:37 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 17:04:37 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 17:04:47 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素成功
+[2017-01-22 17:04:47 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 17:04:47 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 17:04:47 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：input
+[2017-01-22 17:04:47 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest@126.com
+[2017-01-22 17:04:57 INFO ] [main] {org.keyword.util.Log:17}-在writeEmailPage.recipients输入框中输入lp_autotest@126.com时出现异常。异常信息Unable to find element with xpath == //*[contains(@id,'_mail_emailinput_')]/input (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.27 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=8, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:23916/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 199a19c2-620e-4322-ba81-e3915e296b62
+*** Element info: {Using=xpath, value=//*[contains(@id,'_mail_emailinput_')]/input}
+[2017-01-22 17:04:57 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器出现异常，具体异常信息Problem while managing the registry, OS Version '6.1', regVersion1 = null
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+[2017-01-22 17:04:57 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————
+[2017-01-22 17:07:30 INFO ] [main] {org.keyword.util.Log:9}-——————————————         "SendMail01"开始执行            ——————————————————
+[2017-01-22 17:07:30 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：open_browser
+[2017-01-22 17:07:30 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：ie
+[2017-01-22 17:07:34 INFO ] [main] {org.keyword.util.Log:17}-ie浏览器已经声明
+[2017-01-22 17:07:34 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：navigate
+[2017-01-22 17:07:34 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：http://www.126.com
+[2017-01-22 17:07:41 INFO ] [main] {org.keyword.util.Log:17}-浏览器访问地址http://www.126.com
+[2017-01-22 17:07:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 17:07:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：lp_autotest
+[2017-01-22 17:07:41 INFO ] [main] {org.keyword.util.Log:17}-清除login.username输入框中所有内容
+[2017-01-22 17:07:41 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入lp_autotest
+[2017-01-22 17:07:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_input
+[2017-01-22 17:07:41 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：1qaz!QAZ
+[2017-01-22 17:07:41 INFO ] [main] {org.keyword.util.Log:17}-清除login.password输入框中所有内容
+[2017-01-22 17:07:42 INFO ] [main] {org.keyword.util.Log:17}-输入框中输入1qaz!QAZ
+[2017-01-22 17:07:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：login_click
+[2017-01-22 17:07:42 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 17:07:46 INFO ] [main] {org.keyword.util.Log:17}-单击login.button页面元素成功
+[2017-01-22 17:07:46 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：WaitFor_Elemaent
+[2017-01-22 17:07:46 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 17:07:46 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取到的关键字是：click
+[2017-01-22 17:07:46 INFO ] [main] {org.keyword.util.Log:17}-从Excel文件中读取的操作值是：无
+[2017-01-22 17:07:56 INFO ] [main] {org.keyword.util.Log:17}-单击homePage.writeLetterLink页面元素失败，具体异常信息：Unable to find element with xpath == //*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, ie.enableFullPageScreenshot=true, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.forceShellWindowsApi=false, pageLoadStrategy=normal, ignoreZoomSetting=false, ie.fileUploadDialogTimeout=3000, version=8, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:13291/, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 8eb7dd09-59e4-41d3-8cfb-9d3cec731ddf
+*** Element info: {Using=xpath, value=//*[contains(@id,'_mail_component_')]/span[contains(.,'写 信')]}
+[2017-01-22 17:07:56 INFO ] [main] {org.keyword.util.Log:17}-关闭浏览器出现异常，具体异常信息Problem while managing the registry, OS Version '6.1', regVersion1 = null
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+[2017-01-22 17:07:56 INFO ] [main] {org.keyword.util.Log:13}-——————————————         "SendMail01"测试结束            ——————————————————

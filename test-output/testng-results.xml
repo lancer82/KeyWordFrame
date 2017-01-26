@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26610" started-at="2017-01-22T09:07:30Z" finished-at="2017-01-22T09:07:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26610" started-at="2017-01-22T09:07:30Z" finished-at="2017-01-22T09:07:56Z">
+      <class name="org.keyword.testScript.TestSuiteByExcel">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:org.keyword.testScript.TestSuiteByExcel@4667ae56]" name="beforeClass" is-config="true" duration-ms="218" started-at="2017-01-22T17:07:30Z" finished-at="2017-01-22T17:07:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testTestSuite()[pri:0, instance:org.keyword.testScript.TestSuiteByExcel@4667ae56]" name="testTestSuite" duration-ms="26374" started-at="2017-01-22T17:07:30Z" finished-at="2017-01-22T17:07:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTestSuite -->
+      </class> <!-- org.keyword.testScript.TestSuiteByExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

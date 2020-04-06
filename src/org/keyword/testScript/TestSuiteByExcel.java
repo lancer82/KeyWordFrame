@@ -5,12 +5,12 @@ import org.testng.annotations.Test;
 import java.lang.reflect.Method;
 
 import org.apache.log4j.xml.DOMConfigurator;
-import org.junit.Assert;
+import org.testng.Assert;
 import org.keyword.configuration.Constants;
 import org.keyword.configuration.KeyWordsAction;
 import org.keyword.util.ExcelUtil;
 import org.keyword.util.Log;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.*;
 
 public class TestSuiteByExcel {
 	public static Method method[];
@@ -22,7 +22,7 @@ public class TestSuiteByExcel {
 	public static int testLastStep;
 	public static String testCaseID;
 	public static String testCaseRunFlag;
-	public static boolean testResult;
+	public static boolean testResult;	
   @Test
   public void testTestSuite()throws Exception {
 	  keyWordsaction = new KeyWordsAction();	
@@ -33,40 +33,40 @@ public class TestSuiteByExcel {
 	  for(int testCaseNo =1;testCaseNo<=testCaseCount;testCaseNo++){
 		  testCaseID = ExcelUtil.getCellData(Constants.Sheet_TestSuite,  testCaseNo,
 				  Constants.Col_TestCaseID);
-		  System.out.println("»ñÈ¡µÄtestCaseIDÎª£º"+testCaseID);
+//		  System.out.println("ï¿½ï¿½È¡ï¿½ï¿½testCaseIDÎªï¿½ï¿½"+testCaseID);
 		  testCaseRunFlag = ExcelUtil.getCellData(Constants.Sheet_TestSuite, testCaseNo,
 				  Constants.Col_RunFlag);
-		  System.out.println("»ñÈ¡µÄtestCaseRunFlagÎª£º"+testCaseRunFlag );
+//		  System.out.println("ï¿½ï¿½È¡ï¿½ï¿½testCaseRunFlagÎªï¿½ï¿½"+testCaseRunFlag );
 		  if(testCaseRunFlag .equalsIgnoreCase("y")){
 			  Log.startTestcase(testCaseID);
 			  testResult = true;			 
 			  testStep = ExcelUtil.getFirstRowContainsTestCaseID(Constants.Sheet_TestSteps,
 					  testCaseID, Constants.Col_TestCaseID);		  
-			  System.out.println("»ñÈ¡µÄtestStepÎª£º"+testStep);
+//			  System.out.println("ï¿½ï¿½È¡ï¿½ï¿½testStepÎªï¿½ï¿½"+testStep);
 			  testLastStep = ExcelUtil.getTestCaseLastStepRow(Constants.Sheet_TestSteps, 
 					  testCaseID, testStep);
-			  System.out.println("»ñÈ¡µÄtestLastStepÎª£º"+testLastStep);
+//			  System.out.println("ï¿½ï¿½È¡ï¿½ï¿½testLastStepÎªï¿½ï¿½"+testLastStep);
 			  for(; testStep<testLastStep; testStep++){
 				  keyword = ExcelUtil.getCellData(Constants.Sheet_TestSteps, testStep, 
 						  Constants.Col_KeyWordAction);
-				  System.out.println("´ÓExcelÎÄ¼þÖÐ¶ÁÈ¡µ½µÄ¹Ø¼ü×ÖÊÇ£º"+keyword);
-				  Log.info("´ÓExcelÎÄ¼þÖÐ¶ÁÈ¡µ½µÄ¹Ø¼ü×ÖÊÇ£º"+keyword);
+//				  System.out.println("ï¿½ï¿½Excelï¿½Ä¼ï¿½ï¿½Ð¶ï¿½È¡ï¿½ï¿½ï¿½Ä¹Ø¼ï¿½ï¿½ï¿½ï¿½Ç£ï¿½"+keyword);
+//				  Log.info("ï¿½ï¿½Excelï¿½Ä¼ï¿½ï¿½Ð¶ï¿½È¡ï¿½ï¿½ï¿½Ä¹Ø¼ï¿½ï¿½ï¿½ï¿½Ç£ï¿½"+keyword);
 				  locatorExpression = ExcelUtil.getCellData(Constants.Sheet_TestSteps, testStep, 
 						  Constants.Col_LocatorExpression);
-				  System.out.println("´ÓExcelÎÄ¼þÖÐ±í´ïÊ½ÊÇ£º"+locatorExpression );
+//				  System.out.println("ï¿½ï¿½Excelï¿½Ä¼ï¿½ï¿½Ð±ï¿½ï¿½Ê½ï¿½Ç£ï¿½"+locatorExpression );
 				  value = ExcelUtil.getCellData(Constants.Sheet_TestSteps, testStep, 
 						  Constants.Col_ActionValue);
-				  Log.info("´ÓExcelÎÄ¼þÖÐ¶ÁÈ¡µÄ²Ù×÷ÖµÊÇ£º"+value);
-				  System.out.println("´ÓExcelÎÄ¼þÖÐ¶ÁÈ¡µÄ²Ù×÷ÖµÊÇ£º"+value );
+//				  Log.info("ï¿½ï¿½Excelï¿½Ä¼ï¿½ï¿½Ð¶ï¿½È¡ï¿½Ä²ï¿½ï¿½ï¿½Öµï¿½Ç£ï¿½"+value);
+//				  System.out.println("ï¿½ï¿½Excelï¿½Ä¼ï¿½ï¿½Ð¶ï¿½È¡ï¿½Ä²ï¿½ï¿½ï¿½Öµï¿½Ç£ï¿½"+value );
 				  execute_Action();
 				 if(testResult == false){
-					  ExcelUtil.setCellData("²âÊÔÓÃÀý¼¯ºÏ", testCaseNo, Constants.Col_TestSuiteTestResult, "²âÊÔÖ´ÐÐÊ§°Ü");
+					  ExcelUtil.setCellData("æµ‹è¯•ç”¨ä¾‹é›†åˆ", testCaseNo, Constants.Col_TestSuiteTestResult, "æµ‹è¯•æ‰§è¡Œå¤±è´¥");
 					  Log.endTestcase(testCaseID);
 					  break;
 				 }
 
 				 if(testResult ==true){
-					 ExcelUtil.setCellData("²âÊÔÓÃÀý¼¯ºÏ", testCaseNo, Constants.Col_TestSuiteTestResult,"²âÊÔÖ´ÐÐ³É¹¦");
+					 ExcelUtil.setCellData("æµ‹è¯•ç”¨ä¾‹é›†åˆ", testCaseNo, Constants.Col_TestSuiteTestResult,"æµ‹è¯•æ‰§è¡ŒæˆåŠŸ");
 				 }
 			  }
 		  }
@@ -79,18 +79,18 @@ public class TestSuiteByExcel {
 				method[i].invoke(keyWordsaction,locatorExpression,value);
 				 if(testResult ==true){
 					 ExcelUtil.setCellData(Constants.Sheet_TestSteps, testStep, Constants.Col_TestStepTestResult,
-							"²âÊÔ²½ÖèÖ´ÐÐ³É¹¦");
+							"æµ‹è¯•æ­¥éª¤æ‰§è¡ŒæˆåŠŸ");
 					 break;
 				 }else{
 					 ExcelUtil.setCellData(Constants.Sheet_TestSteps, testStep, Constants.Col_TestStepTestResult,
-							"²âÊÔ²½ÖèÖ´ÐÐÊ§°Ü");
-					 KeyWordsAction.close_browser("", "");
+							"æµ‹è¯•æ­¥éª¤æ‰§è¡Œå¤±è´¥");
+					 //KeyWordsAction.close_browser("", "");
 					 break;
 				 }
 			 }
 		 }
 	 }catch(Exception e){
-		 Assert.fail("²âÊÔÖ´ÐÐ³öÏÖÒì³££¬²âÊÔÓÃÀýÖ´ÐÐÊ§°Ü");
+		 Assert.fail("æµ‹è¯•æ‰§è¡Œå‡ºçŽ°å¼‚å¸¸ï¼Œæµ‹è¯•ç”¨ä¾‹æ‰§è¡Œå¤±è´¥");
 	 }
  }
   @BeforeClass

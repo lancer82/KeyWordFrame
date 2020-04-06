@@ -1,10 +1,8 @@
 package org.keyword.configuration;
 
 public class Constants {
-	public static final String Path_ExcelFile ="D:\\Java\\JavaProject\\KetWordsFrameWork"
-			+ "\\src\\org\\keyword\\data\\¹Ø¼ü×ÖÇı¶¯²âÊÔÓÃÀı.xlsx";
-	public static final String Path_ConfigurationFile ="D:\\Java\\JavaProject\\KetWordsFrameWork"
-			+ "\\objectMap.properties";
+	public static final String Path_ExcelFile ="D:\\Project\\KeyWordFrame\\src\\org\\keyword\\data\\å…³é”®å­—é©±åŠ¨æµ‹è¯•ç”¨ä¾‹.xlsx";
+	public static final String Path_ConfigurationFile ="D:\\\\Project\\\\KeyWordFrame\\objectMap.properties";
 	public static final int Col_TestCaseID = 0;
 	public static final int Col_KeyWordAction = 3;
 	public static final int Col_LocatorExpression = 4;
@@ -12,6 +10,6 @@ public class Constants {
 	public static final int Col_TestStepTestResult=6;
 	public static final int Col_RunFlag=2;
 	public static final int Col_TestSuiteTestResult =3;
-	public static final String Sheet_TestSteps= "·¢ËÍÓÊ¼ş";
-	public static final String Sheet_TestSuite = "²âÊÔÓÃÀı¼¯ºÏ";
+	public static final String Sheet_TestSteps= "å‘é€é‚®ä»¶";
+	public static final String Sheet_TestSuite = "æµ‹è¯•ç”¨ä¾‹é›†åˆ";
 }

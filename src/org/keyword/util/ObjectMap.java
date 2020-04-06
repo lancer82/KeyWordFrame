@@ -15,19 +15,19 @@ public class ObjectMap {
 			properties.load(in);
 			in.close();
 		}catch(IOException e){
-			System.out.println("¶ÁÈ¡ÅäÖÃÎÄ¼şÒì³£");
+//			System.out.println("ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ì³£");
 			e.printStackTrace();
 		}
 	}
 	public By getLocator(String ElementNameInPropfile) throws Exception{
-	   //´ÓÊôĞÔÅäÖÃÎÄ¼şÖĞ»ñÈ¡¶ÔÓ¦µÄÅäÖÃ¶ÔÏó 
+	   //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½Ğ»ï¿½È¡ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½ï¿½ 
 		String locator = properties.getProperty(ElementNameInPropfile);
-		//·Ö±ğÓÃlocatorType±äÁ¿´æ´¢¶¨Î»ÀàĞÍ£¬ÓÃlocator´æ´¢¶¨Î»±í´ïÊ½
+		//ï¿½Ö±ï¿½ï¿½ï¿½locatorTypeï¿½ï¿½ï¿½ï¿½ï¿½æ´¢ï¿½ï¿½Î»ï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½locatorï¿½æ´¢ï¿½ï¿½Î»ï¿½ï¿½ï¿½Ê½
 		String locatorType = locator.split(">")[0];
 		String locatorValue = locator.split(">")[1];
 		locatorValue= new String(locatorValue.getBytes("ISO-8859-1"),"UTF-8");
-		System.out.println("»ñÈ¡µÄ¶¨Î»ÀàĞÍÊÇ"+locatorType+"\t»ñÈ¡µÄ¶¨Î»±í´ïÊ½Îª"+locatorValue);
-		//ÓÃlocatorTypeÅĞ¶Ï·µ»ØµÄ¸÷ÖÖ¶¨Î»·½Ê½µÄby¶ÔÏó
+//		System.out.println("ï¿½ï¿½È¡ï¿½Ä¶ï¿½Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"+locatorType+"\tï¿½ï¿½È¡ï¿½Ä¶ï¿½Î»ï¿½ï¿½ï¿½Ê½Îª"+locatorValue);
+		//ï¿½ï¿½locatorTypeï¿½Ğ¶Ï·ï¿½ï¿½ØµÄ¸ï¿½ï¿½Ö¶ï¿½Î»ï¿½ï¿½Ê½ï¿½ï¿½byï¿½ï¿½ï¿½ï¿½
 		if(locatorType.toLowerCase().equals("id")){
 			return By.id(locatorValue);
 		}else if(locatorType.toLowerCase().equals("name")){
@@ -49,7 +49,7 @@ public class ObjectMap {
 		}else if(locatorType.toLowerCase().equals("xpath")){
 			return By.xpath(locatorValue);
 		}else{
-			throw new Exception("ÊäÈëµÄlocatorTypeÎ´ÔÚ³ÌĞòÖĞ¶¨Òå£º"+locatorType);
+			throw new Exception("è¾“å…¥çš„locatorTypeä¸æ­£ç¡®:"+locatorType);
 		}
 	}
 }

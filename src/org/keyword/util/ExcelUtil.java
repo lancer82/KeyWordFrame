@@ -3,6 +3,8 @@ package org.keyword.util;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Row.MissingCellPolicy;
 import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -15,23 +17,23 @@ public class ExcelUtil {
 	private static XSSFWorkbook ExcelWBook;
 	private static XSSFCell Cell;
 	private static XSSFRow Row;
-	//Éè¶¨Òª²Ù×÷µÄExcelÂ·¾¶
-	/**ÔÚ¶Á/Ð´ExcelµÄÊ±ºò£¬Ê×ÏÈÒªÉè¶¨Òª²Ù×÷µÄExcelÎÄ¼þÂ·¾¶*/
+	//ï¿½è¶¨Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ExcelÂ·ï¿½ï¿½
+	/**ï¿½Ú¶ï¿½/Ð´Excelï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½è¶¨Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Excelï¿½Ä¼ï¿½Â·ï¿½ï¿½*/
 	public static void setExcelFile(String path){
 		FileInputStream ExcelFile;
 		try{
-			//ÊµÀý»¯ExcelµÄFileInputStream¶ÔÏó£»
+			//Êµï¿½ï¿½ï¿½ï¿½Excelï¿½ï¿½FileInputStreamï¿½ï¿½ï¿½ï¿½
 			ExcelFile = new FileInputStream(path);
-			//ÊµÀý»¯ExcelµÄXSSFWorkbook¶ÔÏó
+			//Êµï¿½ï¿½ï¿½ï¿½Excelï¿½ï¿½XSSFWorkbookï¿½ï¿½ï¿½ï¿½
 			ExcelWBook = new XSSFWorkbook(ExcelFile);
 		}catch(Exception e){
 			TestSuiteByExcel.testResult = false;
-			System.out.println("ExcelÎÄ¼þÂ·¾¶Éè¶¨Ê§°Ü");
+			System.out.println("Excelï¿½Ä¼ï¿½Â·ï¿½ï¿½ï¿½è¶¨Ê§ï¿½ï¿½");
 			e.printStackTrace();
 		}
 	}
-	//Éè¶¨Òª²Ù×÷µÄExcelÎÄ¼þÂ·¾¶ºÍExcelµÄSheetÃû³Æ
-	/**ÔÚ¶Á/Ð´ExcelµÄÊ±ºò£¬Ê×ÏÈÒªÉè¶¨Òª²Ù×÷µÄExcelÎÄ¼þÂ·¾¶ºÍÒª²Ù×÷µÄSheetÃû³Æ*/
+	//ï¿½è¶¨Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Excelï¿½Ä¼ï¿½Â·ï¿½ï¿½ï¿½ï¿½Excelï¿½ï¿½Sheetï¿½ï¿½ï¿½ï¿½
+	/**ï¿½Ú¶ï¿½/Ð´Excelï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½è¶¨Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Excelï¿½Ä¼ï¿½Â·ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Sheetï¿½ï¿½ï¿½ï¿½*/
 	public static void setExcelFile(String path,String SheetName){
 		FileInputStream ExcelFile;
 		try{
@@ -41,40 +43,40 @@ public class ExcelUtil {
 			
 		}catch(Exception e){
 			TestSuiteByExcel.testResult = false;
-			System.out.println("ExcelÂ·¾¶Éè¶¨Ê§°Ü");
+			System.out.println("ExcelÂ·ï¿½ï¿½ï¿½è¶¨Ê§ï¿½ï¿½");
 			e.printStackTrace();
 		}
 	}
 	
-	//¶ÁÈ¡ExcelÎÄ¼þÖ¸¶¨µ¥Ôª¸ñº¯Êý£¬´Ëº¯ÊýÖ»Ö§³ÖÎÄ¼þÀ©Õ¹ÃûÎª,xlsxµÄExcelÎÄ¼þ
+	//ï¿½ï¿½È¡Excelï¿½Ä¼ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëºï¿½ï¿½ï¿½Ö»Ö§ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Õ¹ï¿½ï¿½Îª,xlsxï¿½ï¿½Excelï¿½Ä¼ï¿½
 	public static String getCellData(String SheetName, int RowNum,int ColNum){
 		ExcelWSheet = ExcelWBook.getSheet(SheetName);
 		try{
 			Cell = ExcelWSheet.getRow(RowNum).getCell(ColNum);
-			String CellData = Cell.getCellType()==XSSFCell.CELL_TYPE_STRING ?Cell.getStringCellValue()
+			String CellData = Cell.getCellType()== CellType.STRING ? Cell.getStringCellValue()
 					+"":String.valueOf(Math.round(Cell.getNumericCellValue()));
 			return CellData;
 		}catch(Exception e){
 			TestSuiteByExcel.testResult = false;
 			e.printStackTrace();
-			//¶ÁÈ¡Óöµ½Òì³£Ôò·µ»Ø¿Õ×Ö·û´®
+			//ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ì³£ï¿½ò·µ»Ø¿ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
 			return "";
 		}
 	}
 	
-	//»ñÈ¡SheetÖÐ×îºóÒ»ÐÐµÄÐÐºÅ
+	//ï¿½ï¿½È¡Sheetï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Ðµï¿½ï¿½Ðºï¿½
 	public static int getLastRowNum(){
 		return ExcelWSheet.getLastRowNum();
 	}
 	
-	//»ñÈ¡Ö¸¶¨SheetÖÐÊý¾ÝµÄ×ÜÐÐÊý
+	//ï¿½ï¿½È¡Ö¸ï¿½ï¿½Sheetï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public static int getRowCount(String SheetName){
 		ExcelWSheet =ExcelWBook.getSheet(SheetName);
 		int number = ExcelWSheet.getLastRowNum();
 		return number;
 	}
 	
-	//ÔÚExcelµÄÖ¸¶¨SheetÖÐ£¬»ñÈ¡µÚÒ»´Î°üº¬Ö¸¶¨²âÊÔÓÃÀýÐòºÅÎÄ×ÖµÄÐÐºÅ¡£
+	//ï¿½ï¿½Excelï¿½ï¿½Ö¸ï¿½ï¿½Sheetï¿½Ð£ï¿½ï¿½ï¿½È¡ï¿½ï¿½Ò»ï¿½Î°ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ÐºÅ¡ï¿½
 	public static int getFirstRowContainsTestCaseID(String sheetName,String testCaseName,int colNum){		
 		int i ;
 		try{
@@ -91,7 +93,7 @@ public class ExcelUtil {
 			return 0;
 		}
 	}
-	//»ñÈ¡Ö¸¶¨SheetÖÐÄ³¸ö²âÊÔÓÃÀý²½ÖèµÄ¸öÊý 
+	//ï¿½ï¿½È¡Ö¸ï¿½ï¿½Sheetï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½ 
 	public static int getTestCaseLastStepRow(String sheetName,String testCaseID,int testCaseStartRowNum){
 		try{			
 			ExcelWSheet = ExcelWBook.getSheet(sheetName);
@@ -108,14 +110,14 @@ public class ExcelUtil {
 			return 0;
 		}
 	}
-	//ÔÚExcelÎÄ¼þÖÐÉèÖÃµ¥Ôª¸ñÖÐÐ´ÈëÊý¾Ý£¬´Ëº¯ÊýÖ»Ö§³ÖÎÄ¼þÀ©Õ¹ÃûÎª.xlsxµÄExcelµÄÎÄ¼þÐ´Èë
+	//ï¿½ï¿½Excelï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½Ôªï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½Ý£ï¿½ï¿½Ëºï¿½ï¿½ï¿½Ö»Ö§ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Õ¹ï¿½ï¿½Îª.xlsxï¿½ï¿½Excelï¿½ï¿½ï¿½Ä¼ï¿½Ð´ï¿½ï¿½
 	public static void setCellData(String sheetName,int rowNum,int colNum,String result){
 		ExcelWSheet = ExcelWBook.getSheet(sheetName);
 		try{
-			//»ñÈ¡ExcelÎÄ¼þÖÐµÄÐÐ¶ÔÏó
+			//ï¿½ï¿½È¡Excelï¿½Ä¼ï¿½ï¿½Ðµï¿½ï¿½Ð¶ï¿½ï¿½ï¿½
 			Row = ExcelWSheet.getRow(rowNum);
-			//»ñÈ¡ÐÐ¶ÔÏóÖÐµÄµ¥Ôª¸ñ¶ÔÏó£¬Èç¹ûµ¥Ôª¸ñÎª¿Õ£¬Ôò·µ»ØNull
-			Cell = Row.getCell(colNum,Row.RETURN_BLANK_AS_NULL);
+			//ï¿½ï¿½È¡ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½ÐµÄµï¿½Ôªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½Îªï¿½Õ£ï¿½ï¿½ò·µ»ï¿½Null
+			Cell = Row.getCell(colNum,MissingCellPolicy.RETURN_BLANK_AS_NULL);
 			if(Cell==null){
 				Cell=Row.createCell(colNum);
 				Cell.setCellValue(result);

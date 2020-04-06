@@ -4,19 +4,19 @@ import org.apache.log4j.Logger;
 
 public class Log {
 	private static Logger log = Logger.getLogger(Log.class.getName());
-	//¶¨Òå²âÊÔÓÃÀı¿ªÊ¼Ö´ĞĞ´òÓ¡ĞÅÏ¢£¬ÔÚÈÕÖ¾ÖĞ´òÓ¡²âÊÔÓÃÀı¿ªÊ¼Ö´ĞĞµÄĞÅÏ¢ 
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼Ö´ï¿½Ğ´ï¿½Ó¡ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½Ğ´ï¿½Ó¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼Ö´ï¿½Ğµï¿½ï¿½ï¿½Ï¢ 
 	public static void startTestcase(String testCaseName){
-		log.info("¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª         \""+testCaseName+ "\"¿ªÊ¼Ö´ĞĞ            ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª");		
+		log.info(testCaseName);		
 	}
-	//¶¨Òå²âÊÔÓÃÀıÖ´ĞĞ½áÊø´òÓ¡ĞÅÏ¢£¬ÔÚÈÕÖ¾ÖĞ´òÓ¡²âÊÔÓÃÀı½áÊøÖ´ĞĞµÄĞÅÏ¢ 
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½Ğ½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¡ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½Ğ´ï¿½Ó¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½Ğµï¿½ï¿½ï¿½Ï¢ 
 	public static void endTestcase(String testCaseName){
-		log.info("¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª         \""+testCaseName+ "\"²âÊÔ½áÊø            ¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª¡ª");		
+		log.info(testCaseName);		
 	}
-	//¶¨Òå´òÓ¡info½ç±ğµÄÈÕÖ¾
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Ó¡infoï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾
 	public static void info(String message){
 		log.info(message);
 	}
-	//¶¨Òå´òÓ¡error¼¶±ğµÄÈÕÖ¾
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Ó¡errorï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾
 	public static void error(String message){
 		log.info(message);
 	}

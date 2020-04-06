@@ -7,7 +7,7 @@ import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
 public class KeyBoardUtil {
-	//实现按Tab键的方法
+	//实锟街帮拷Tab锟斤拷锟侥凤拷锟斤拷
 	public static void pressTabKey(){
 		Robot robot = null;
 		try{
@@ -18,7 +18,7 @@ public class KeyBoardUtil {
 		robot.keyPress(KeyEvent.VK_TAB);
 		robot.keyRelease(KeyEvent.VK_TAB);
 	}
-	//实现按回车键的方法
+	
 	public static void pressEnterKey(){
 		Robot robot= null;
 		try{
@@ -29,9 +29,7 @@ public class KeyBoardUtil {
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
 	}
-    /**将指定字符创设为剪切板内容，然后执行粘贴操作
-	      将页面焦点切换到输入框后，调用此函数可以将指定字符创粘贴到输入框中
-	*/
+
 	public static void setAndctrlVClipboardData(String string){
 		StringSelection stringSelection = new StringSelection(string);
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);

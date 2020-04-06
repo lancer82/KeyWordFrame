@@ -1137,3 +1137,5 @@ Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0
 System info: host: 'thinlk-PC', ip: '10.100.14.90', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_111'
 Driver info: driver.version: unknown
 [2017-01-22 17:07:56 INFO ] [main] {org.keyword.util.Log:13}-！！！！！！！！！！！！！！         "SendMail01"霞編潤崩            ！！！！！！！！！！！！！！！！！！
+[2020-03-19 19:26:02 INFO ] [main] {org.keyword.util.Log:9}-SendMail01
+[2020-03-19 19:26:48 INFO ] [main] {org.keyword.util.Log:9}-SendMail01

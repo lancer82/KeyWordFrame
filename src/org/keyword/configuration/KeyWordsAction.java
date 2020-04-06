@@ -16,12 +16,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.os.WindowsUtils;
-import org.openqa.selenium.remote.DesiredCapabilities;
+//import org.openqa.selenium.os.WindowsUtils;
 import org.testng.Assert;
 
 public class KeyWordsAction {
-	private static final int APP = 0;
+	
 	public static WebDriver driver;
 	private static ObjectMap objectMap = new ObjectMap(Constants.Path_ConfigurationFile);
 	static{
@@ -31,20 +30,20 @@ public class KeyWordsAction {
 	public static void open_browser(String string,String browserName){
 		  if(browserName.equalsIgnoreCase("firefox")){
 			  driver = new FirefoxDriver();	
-			  Log.info("»ğºüä¯ÀÀÆ÷ÒÑ¾­ÉùÃ÷");
+			  Log.info("ç«ç‹æµè§ˆå™¨å·²ç»å£°æ˜");
 		  }else if(browserName.equalsIgnoreCase("ie")){
 			  System.setProperty("webdriver.ie.driver","D:\\Drivers\\IEDriverServer.exe");
 /*			  DesiredCapabilities caps = DesiredCapabilities.internetExplorer();
-			  caps.setCapability(InternetExplorerDriver.FORCE_CREATE_PROCESS,false); //ÊÇ·ñÔÚ´ò¿ªIEÇ°Çå³ı±¾µØ»º´æÎÄ¼ş
-			  caps.setCapability(InternetExplorerDriver.IE_SWITCHES, "-private");//Ê¹ÓÃ±¾µØ¶Ë¿Ú
-			  caps.setCapability("ignoreZoomSetting",true);   //ºöÂÔIE±¾µØÉèÖÃ
+			  caps.setCapability(InternetExplorerDriver.FORCE_CREATE_PROCESS,false); //æ˜¯å¦åœ¨æ‰“å¼€IEå‰æ¸…é™¤æœ¬åœ°ç¼“å­˜æ–‡ä»¶
+			  caps.setCapability(InternetExplorerDriver.IE_SWITCHES, "-private");//ä½¿ç”¨æœ¬åœ°ç«¯å£
+			  caps.setCapability("ignoreZoomSetting",true);   //å¿½ç•¥IEæœ¬åœ°è®¾ç½®
 		      driver =new InternetExplorerDriver(caps);*/
                driver =new InternetExplorerDriver();
-			  Log.info("ieä¯ÀÀÆ÷ÒÑ¾­ÉùÃ÷");
+			  Log.info("ieæµè§ˆå™¨å·²ç»å£°æ˜");
 		  }else{
 			  System.setProperty("webdriver.Chrome.driver","D:\\Drivers\\chromedriver.exe");
 			  driver=new ChromeDriver();
-			  Log.info("Chromeä¯ÀÀÆ÷ÒÑ¾­ÉùÃ÷");
+			  Log.info("Chromeæµè§ˆå™¨å·²ç»å£°æ˜");
 		  }	
 		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
@@ -52,21 +51,21 @@ public class KeyWordsAction {
 	public static void navigate(String string,String Url){
 		driver.get(Url);
 		WaitUtil.sleep(5000);
-		Log.info("ä¯ÀÀÆ÷·ÃÎÊµØÖ·"+Url);
+		Log.info("æµè§ˆå™¨è®¿é—®åœ°å€"+Url);
 	}
 	//login_input
 	public static void login_input(String locatorExpression,String inputString){
 		try{		
 			driver.switchTo().frame(driver.findElement(By.id("x-URS-iframe")));
 			driver.findElement(objectMap.getLocator(locatorExpression)).clear();
-			Log.info("Çå³ı"+locatorExpression+"ÊäÈë¿òÖĞËùÓĞÄÚÈİ");
+			Log.info("æ¸…é™¤"+locatorExpression+"è¾“å…¥æ¡†ä¸­æ‰€æœ‰å†…å®¹");
 			driver.findElement(objectMap.getLocator(locatorExpression)).sendKeys(inputString);
-			Log.info("ÊäÈë¿òÖĞÊäÈë"+inputString);
+			Log.info("è¾“å…¥æ¡†ä¸­è¾“å…¥"+inputString);
 			driver.switchTo().defaultContent();
 		}catch(Exception e){
 			TestSuiteByExcel.testResult = false;
-			Log.info("ÔÚ"+locatorExpression+"ÊäÈë¿òÖĞÊäÈë"+inputString+"Ê±³öÏÖÒì³£¡£"
-					+ "Òì³£ĞÅÏ¢"+e.getMessage());
+			Log.info("åœ¨"+locatorExpression+"è¾“å…¥æ¡†ä¸­è¾“å…¥"+inputString+"æ—¶å‡ºç°å¼‚å¸¸ã€‚"
+					+ "å¼‚å¸¸ä¿¡æ¯"+e.getMessage());
 			e.printStackTrace();
 		}
 	}
@@ -74,13 +73,13 @@ public class KeyWordsAction {
 	public static void input(String locatorExpression,String inputString){
 		try{
 			driver.findElement(objectMap.getLocator(locatorExpression)).clear();
-			Log.info("Çå³ı"+locatorExpression+"ÊäÈë¿òÖĞËùÓĞÄÚÈİ");
+			Log.info("æ¸…é™¤"+locatorExpression+"è¾“å…¥æ¡†ä¸­æ‰€æœ‰å†…å®¹");
 			driver.findElement(objectMap.getLocator(locatorExpression)).sendKeys(inputString);
-			Log.info("ÊäÈë¿òÖĞÊäÈë"+inputString);
+			Log.info("è¾“å…¥æ¡†ä¸­è¾“å…¥"+inputString);
 		}catch(Exception e){
 			TestSuiteByExcel.testResult = false;
-			Log.info("ÔÚ"+locatorExpression+"ÊäÈë¿òÖĞÊäÈë"+inputString+"Ê±³öÏÖÒì³£¡£"
-					+ "Òì³£ĞÅÏ¢"+e.getMessage());
+			Log.info("åœ¨"+locatorExpression+"è¾“å…¥æ¡†ä¸­è¾“å…¥"+inputString+"æ—¶å‡ºç°å¼‚å¸¸ã€‚"
+					+ "å¼‚å¸¸ä¿¡æ¯"+e.getMessage());
 			e.printStackTrace();
 		}
 	}
@@ -90,11 +89,11 @@ public class KeyWordsAction {
 			driver.switchTo().frame(driver.findElement(By.id("x-URS-iframe")));			
 			driver.findElement(objectMap.getLocator(locatorExpression)).click();
 			Thread.sleep(3000);
-			Log.info("µ¥»÷"+locatorExpression+"Ò³ÃæÔªËØ³É¹¦");
+			Log.info("å•å‡»"+locatorExpression+"é¡µé¢å…ƒç´ æˆåŠŸ");
 			driver.switchTo().defaultContent();
 		}catch(Exception e){
 			TestSuiteByExcel.testResult = false;
-			Log.info("µ¥»÷"+locatorExpression+"Ò³ÃæÔªËØÊ§°Ü£¬¾ßÌåÒì³£ĞÅÏ¢£º"+e.getMessage());
+			Log.info("å•å‡»"+locatorExpression+"é¡µé¢å…ƒç´ å¤±è´¥ï¼Œå…·ä½“å¼‚å¸¸ä¿¡æ¯ï¼š"+e.getMessage());
 			e.printStackTrace();
 		}
 	}
@@ -102,10 +101,10 @@ public class KeyWordsAction {
 	public static void click(String locatorExpression,String String){
 		try{
 			driver.findElement(objectMap.getLocator(locatorExpression)).click();
-			Log.info("µ¥»÷"+locatorExpression+"Ò³ÃæÔªËØ³É¹¦");
+			Log.info("å•å‡»"+locatorExpression+"é¡µé¢å…ƒç´ æˆåŠŸ");
 		}catch(Exception e){
 			TestSuiteByExcel.testResult = false;
-			Log.info("µ¥»÷"+locatorExpression+"Ò³ÃæÔªËØÊ§°Ü£¬¾ßÌåÒì³£ĞÅÏ¢£º"+e.getMessage());
+			Log.info("å•å‡»"+locatorExpression+"é¡µé¢å…ƒç´ å¤±è´¥ï¼Œå…·ä½“å¼‚å¸¸ä¿¡æ¯ï¼š"+e.getMessage());
 			e.printStackTrace();
 		}
 	}
@@ -113,10 +112,10 @@ public class KeyWordsAction {
 	public static void WaitFor_Element(String locatorExpression, String string){
 		try{
 			WaitUtil.waitWebElement(driver,objectMap.getLocator(locatorExpression) );
-			Log.info("ÏÔÊ½µÈ´ıÔªËØ³öÏÖ³É¹¦£¬ÔªËØÊÇ"+locatorExpression);
+			Log.info("æ˜¾å¼ç­‰å¾…å…ƒç´ å‡ºç°æˆåŠŸï¼Œå…ƒç´ æ˜¯"+locatorExpression);
 		}catch(Exception e){
 		    TestSuiteByExcel.testResult=false;
-		    Log.info("ÏÔÊ½µÈ´ıÔªËØ³öÏÖÒì³££¬¾ßÌåÒì³£ĞÅÏ¢"+e.getMessage());
+		    Log.info("æ˜¾å¼ç­‰å¾…å…ƒç´ å‡ºç°å¼‚å¸¸ï¼Œå…·ä½“å¼‚å¸¸ä¿¡æ¯"+e.getMessage());
 		    e.printStackTrace();
 		}
 	}
@@ -125,10 +124,10 @@ public class KeyWordsAction {
 		try{
 			Thread.sleep(3000);
 			KeyBoardUtil.pressTabKey();
-			Log.info("°´Tab¼ü³É¹¦");
+			Log.info("æŒ‰Tabé”®æˆåŠŸ");
 		}catch(Exception e){
 			TestSuiteByExcel.testResult = false;
-			Log.info("°´Tab¼üÊ±³öÏÖÒì³££¬¾ßÌåÒì³£ĞÅÏ¢"+e.getMessage());
+			Log.info("æŒ‰Tabé”®æ—¶å‡ºç°å¼‚å¸¸ï¼Œå…·ä½“å¼‚å¸¸ä¿¡æ¯"+e.getMessage());
 			e.printStackTrace();
 		}
 	}
@@ -140,11 +139,11 @@ public class KeyWordsAction {
 			js.executeScript("document.getElementsByTagName('body')[0].innerHTML ='<b>"+pasteContent+"<b>'");
 			Thread.sleep(3000);
 			//KeyBoardUtil.setAndctrlVClipboardData(pasteContent);
-			Log.info("³É¹¦Õ³ÌùÓÊ¼şÕıÎÄ£º"+pasteContent);
+			Log.info("æˆåŠŸç²˜è´´é‚®ä»¶æ­£æ–‡ï¼š"+pasteContent);
 			driver.switchTo().defaultContent();
 		}catch(Exception e){
 			TestSuiteByExcel.testResult = false;
-			Log.info("ÔÚÊäÈë¿òÕ³ÌùÓÊ¼şÕıÎÄÊÇ³öÏÖÒì³££¬¾ßÌåÒì³£ĞÅÏ¢£º"+e.getMessage());
+			Log.info("åœ¨è¾“å…¥æ¡†ç²˜è´´é‚®ä»¶æ­£æ–‡æ˜¯å‡ºç°å¼‚å¸¸ï¼Œå…·ä½“å¼‚å¸¸ä¿¡æ¯ï¼š"+e.getMessage());
 			e.printStackTrace();
 		}
 	}
@@ -153,10 +152,10 @@ public class KeyWordsAction {
 		try{
 			Thread.sleep(2000);
 			KeyBoardUtil.pressEnterKey();
-			Log.info("°´Enter¼ü³É¹¦");
+			Log.info("æŒ‰Enteré”®æˆåŠŸ");
 		}catch(Exception e){
 			TestSuiteByExcel.testResult = false;
-			Log.info("°´Enter¼üÊ±³öÏÖÒì³££¬¾ßÌåÒì³£ĞÅÏ¢"+e.getMessage());
+			Log.info("æŒ‰Enteré”®æ—¶å‡ºç°å¼‚å¸¸ï¼Œå…·ä½“å¼‚å¸¸ä¿¡æ¯"+e.getMessage());
 			e.printStackTrace();
 		}
 	}
@@ -164,10 +163,10 @@ public class KeyWordsAction {
 	public static void sleep(String string, String sleepTime){
 		try{
 			WaitUtil.sleep(Integer.parseInt(sleepTime));
-			Log.info("ĞİÃß"+Integer.parseInt(sleepTime)/1000+"Ãë³É¹¦");
+			Log.info("ä¼‘çœ "+Integer.parseInt(sleepTime)/1000+"ç§’æˆåŠŸ");
 		}catch(Exception e){
 			TestSuiteByExcel.testResult = false;
-			Log.info("Ïß³ÌĞİÃß³öÏÖÒì³££¬¾ßÌåÒì³£ĞÅÏ¢"+e.getMessage());
+			Log.info("çº¿ç¨‹ä¼‘çœ å‡ºç°å¼‚å¸¸ï¼Œå…·ä½“å¼‚å¸¸ä¿¡æ¯"+e.getMessage());
 			e.printStackTrace();
 		}
 	}
@@ -176,11 +175,11 @@ public class KeyWordsAction {
 		try{		
 			List<WebElement> buttons =  driver.findElements(objectMap.getLocator(locatorExpression));
 			buttons.get(0).click();
-			Log.info("µ¥»÷·¢ËÍÓÊ¼ş°´Å¥³É¹¦");
-			System.out.println("·¢ËÍ°´Å¥±»³É¹¦µ¥»÷");
+			Log.info("å•å‡»å‘é€é‚®ä»¶æŒ‰é’®æˆåŠŸ");
+			System.out.println("å‘é€æŒ‰é’®è¢«æˆåŠŸå•å‡»");
 		}catch(Exception e){
 			TestSuiteByExcel.testResult = false;
-			Log.info("µ¥»÷·¢ËÍ°´Å¥³öÏÖÒì³££¬¾ßÌåÒì³£ĞÅÏ¢"+e.getMessage());
+			Log.info("å•å‡»å‘é€æŒ‰é’®å‡ºç°å¼‚å¸¸ï¼Œå…·ä½“å¼‚å¸¸ä¿¡æ¯"+e.getMessage());
 			e.printStackTrace();
 		}
 	}
@@ -188,30 +187,30 @@ public class KeyWordsAction {
 	public static void Assert_String(String string,String assertString){
 		try{
 			Assert.assertTrue(driver.getPageSource().contains(assertString));
-			Log.info("³É¹¦¶ÏÑÔ¹Ø¼ü×Ö¡°"+assertString+"¡°");
+			Log.info("æˆåŠŸæ–­è¨€å…³é”®å­—â€œ"+assertString+"â€œ");
 		}catch(Exception e){
 			TestSuiteByExcel.testResult = false;
-			Log.info("¶ÏÑÔ¹Ø¼ü×Ö³öÏÖÒì³££¬¾ßÌåÒì³£ĞÅÏ¢"+e.getMessage());
+			Log.info("æ–­è¨€å…³é”®å­—å‡ºç°å¼‚å¸¸ï¼Œå…·ä½“å¼‚å¸¸ä¿¡æ¯"+e.getMessage());
 			e.printStackTrace();
 		}
 	}
-	public static void close_browser(String string,String browserName){
-		try{
-			  if(browserName.equalsIgnoreCase("firefox")){
-				  WindowsUtils.killByName("geckodriver.exe");	
-				  Log.info("»ğºüä¯ÀÀÆ÷ÒÑ¾­¹Ø±Õ");
-			  }else if(browserName.equalsIgnoreCase("ie")){
-				  WindowsUtils.killByName("IEDriverServer.exe");
-				  driver.quit();
-				  Log.info("ieä¯ÀÀÆ÷ÒÑ¾­¹Ø±Õ");
-			  }else{
-				  WindowsUtils.killByName("chromedriver.exe");			  
-				  Log.info("Chromeä¯ÀÀÆ÷ÒÑ¾­¹Ø±Õ");
-			  }	
-		}catch(Exception e){
-			TestSuiteByExcel.testResult = false;
-			Log.info("¹Ø±Õä¯ÀÀÆ÷³öÏÖÒì³££¬¾ßÌåÒì³£ĞÅÏ¢"+e.getMessage());
-			e.printStackTrace();
-		}
-	}
+//	public static void close_browser(String string,String browserName){
+//		try{
+//			  if(browserName.equalsIgnoreCase("firefox")){
+//				  WindowsUtils.killByName("geckodriver.exe");	
+//				  Log.info("ç«ç‹æµè§ˆå™¨å·²ç»å…³é—­");
+//			  }else if(browserName.equalsIgnoreCase("ie")){
+//				  WindowsUtils.killByName("IEDriverServer.exe");
+//				  driver.quit();
+//				  Log.info("ieæµè§ˆå™¨å·²ç»å…³é—­");
+//			  }else{
+//				  WindowsUtils.killByName("chromedriver.exe");			  
+//				  Log.info("Chromeæµè§ˆå™¨å·²ç»å…³é—­");
+//			  }	
+//		}catch(Exception e){
+//			TestSuiteByExcel.testResult = false;
+//			Log.info("å…³é—­æµè§ˆå™¨å‡ºç°å¼‚å¸¸ï¼Œå…·ä½“å¼‚å¸¸ä¿¡æ¯"+e.getMessage());
+//			e.printStackTrace();
+//		}
+//	}
 }
